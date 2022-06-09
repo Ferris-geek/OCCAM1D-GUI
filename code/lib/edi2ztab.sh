@@ -42,7 +42,7 @@ cat /dev/null > temp.txt
 for kw in $kwlist
 do
 	#echo $kw
-	readedi $edi ">"$kw | gawk '{a[FNR]=$1}END{for(i=1;i<=FNR;i++){printf "%e  ",a[i]};printf "\n"}' >> temp.txt
+	./readedi $edi ">"$kw | gawk '{a[FNR]=$1}END{for(i=1;i<=FNR;i++){printf "%e  ",a[i]};printf "\n"}' >> temp.txt
 done
 gawk '{for(i=1;i<=NF;i++){a[FNR,i]=$i}}END{for(i=1;i<=NF;i++){for(j=1;j<=FNR;j++){printf a[j,i]"	"}print ""}}' temp.txt > $asc
 rm temp.txt

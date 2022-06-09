@@ -21,4 +21,4 @@ ruf=`sed -n "${iter},${iter}p" MISFIT | gawk '{printf "%5.2f",$3}'`
 #
 # call the gnuplot script.
 #
-gpltmt1dinv.sh $site $mis $ruf $mod $dat $site.png
+../gpltmt1dinv.sh $site $mis $ruf $mod $dat $site.png

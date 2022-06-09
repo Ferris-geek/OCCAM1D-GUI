@@ -2,7 +2,7 @@ Format:             OCCAMITER_FLEX
 Description:        1D_Occam_Inv
 Model File:         Model1D
 Data File:          Occam1d_DataFile_DET.dat
-Date/Time:          06/09/2022 13:16:59.333
+Date/Time:          06/09/2022 16:18:26.809
 Iterations to run:  10
 Target Misfit:      1.00000000000000
 Roughness Type:     1

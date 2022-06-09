@@ -21,7 +21,7 @@ include mk.para
 all: $(inv)
 
 $(inv): $(site).ztab startup $(dfile) $(mfile)
-	mt1docc;
+	../mt1docc;
 	iter=`ls ITER* | sed 's/ITER//' | sort | tail -1`; \
 	../pltocciter.sh $(site) $$iter; \
 	#cp RECV$$iter ../$(site).RECV; \
