@@ -1,5 +1,11 @@
 # OCCAM1D-GUI
 
+## Introduction
+
+本项目是为了简便反演大地电磁edi数据文件而开发的图形界面。主要包括gnuplot版本和MTpy版本。
+
+安装需求见requirements。
+
 ## Pre work
 
 ### install packages
@@ -25,3 +31,20 @@ python main.py
 ```
 
 Then use GUI interface to inverse edi data.
+
+## 参数解释
+
+|    参数名称    |         意义         |            备注             |
+| :------------: | :------------------: | :-------------------------: |
+|    edi file    |       输入文件       |      目前只支持edi文件      |
+|   Layer nums   |       反演层数       |            大于0            |
+| Max iterations |     最大迭代次数     |            大于0            |
+|      rms       |          /           |              /              |
+|      mode      |       反演模式       |              /              |
+|     Depth      | 反演数据显示地下深度 |              /              |
+|   Plot type    |       绘制类型       | 目前支持gnuplot和matplotlib |
+|   Save Path    |       保存路径       |              /              |
+
+## 备注
+
+如果没有选择保存路径，程序会自动保存到code的result文件夹中。
