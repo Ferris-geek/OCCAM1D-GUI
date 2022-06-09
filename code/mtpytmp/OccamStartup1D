@@ -1,0 +1,38 @@
+Format:              OCCAMITER_FLEX
+Description:         1D_Occam_Inv
+Model File:          Model1D
+Data File:           Occam1d_DataFile_DET.dat
+Date/Time:           Thu Jun  9 13:16:59 2022
+Max Iter:            10
+Target Misfit:       1.0
+Roughness Type:      1
+!Model Bounds:       min,max
+!Model Value Steps:  stepsize
+Debug Level:         1
+Iteration:           0
+Lagrange Value:      5.0
+Roughness Value:     10000000.0
+Misfit Value:        100
+Misfit Reached:      0
+Param Count:         21
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
+   2.00
