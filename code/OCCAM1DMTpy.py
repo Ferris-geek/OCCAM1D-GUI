@@ -93,8 +93,8 @@ class Ui_OCCAM1DMTpy(QWidget):
         self.mode_box.setEditable(False)
         self.mode_box.setObjectName("mode_box")
         self.mode_box.addItem("")
-        self.mode_box.addItem("")
-        self.mode_box.addItem("")
+        #self.mode_box.addItem("")
+        #self.mode_box.addItem("")
         
         # rms.
         self.rms_label = QtWidgets.QLabel(self)
